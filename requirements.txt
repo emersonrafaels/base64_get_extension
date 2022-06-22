@@ -1,0 +1,3 @@
+python-magic==0.4.13
+python-magic-win64==0.4.13
+pillow_heif==0.3.1
