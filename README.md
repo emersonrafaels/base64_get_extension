@@ -88,6 +88,38 @@ Os passos foram:
 2) Decodificação da base64
 3) Obtenção da extensão do arquivo original (codificado em base64)
 
+Ex: Executando a **conversão de uma imagem heic/heif para png**:
+
+```python
+import base64
+from pathlib import Path
+import sys
+
+sys.path.append(str(Path(__file__).resolve().parent.parent))
+
+from src.base64_encode_decode import image_to_base64, base64_get_extension
+from src.convert_heic_heif_to_png import convert_heic_heif_to_png
+
+input_image = '../fixtures/IMG_4108.HEIC'
+
+# CONVERTENDO PARA BASE64
+input_image_base64 = image_to_base64(input_image)
+
+# DECODIFICANDO A BASE64
+result_decode = base64.b64decode(input_image_base64.decode())
+
+# OBTENDO A EXTENSÃO
+extension = base64_get_extension(result_decode)
+
+print("-"*50)
+print("A EXTENSÃO DO ARQUIVO É {}".format(extension))
+
+if extension in [".heic", ".heif"]:
+    save_output_format = ".jpg"
+
+    convert_heic_heif_to_png(input_image, name_save="RESULT_IMAGE")
+```
+
 ## ➊ Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas (O download pode ser realizado pela própria página do Python ou Anaconda):

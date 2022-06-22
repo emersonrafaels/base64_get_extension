@@ -6,7 +6,7 @@ sys.path.append(str(Path(__file__).resolve().parent.parent))
 
 from src.base64_encode_decode import image_to_base64, base64_get_extension
 
-input_image = '../fixtures/IMG_4127.HEIC'
+input_image = '../fixtures/IMG_4108.HEIC'
 
 # CONVERTENDO PARA BASE64
 input_image_base64 = image_to_base64(input_image)
