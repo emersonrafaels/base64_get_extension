@@ -300,6 +300,7 @@ cython_debug/
 
 # Ignore code-workspaces
 *.code-workspace
+.idea/workspace.xml___jb_tmp___
 
 # End of https://www.toptal.com/developers/gitignore/api/python,pycharm,visualstudiocode
 
