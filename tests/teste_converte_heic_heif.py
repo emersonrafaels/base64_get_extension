@@ -22,6 +22,5 @@ print("-"*50)
 print("A EXTENSÃO DO ARQUIVO É {}".format(extension))
 
 if extension in [".heic", ".heif"]:
-    save_output_format = ".jpg"
 
     convert_heic_heif_to_png(input_image, name_save="RESULT_IMAGE")
