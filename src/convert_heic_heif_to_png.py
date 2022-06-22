@@ -3,7 +3,7 @@ from PIL import Image
 
 import pillow_heif
 
-def convert_heic_to_png(input_file_heic_heif, name_save="RESULT_IMAGE"):
+def convert_heic_heif_to_png(input_file_heic_heif, name_save="RESULT_IMAGE"):
 
     try:
         format_save = "png"

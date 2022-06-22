@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Get Extension Base64" title="#OCRRG" src="./assets/banner.png" />
+    <img alt="Get Extension Base64" title="#GETEXTENSIONBASE64" src="./assets/banner.png" />
 </h1>
 
 <h4 align="center"> 
