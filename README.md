@@ -7,9 +7,9 @@
 </h4>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/emersonrafaels/ocr_rg?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/emersonrafaels/base64_get_extension?color=%2304D361">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/emersonrafaels/ocr_rg">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/emersonrafaels/base64_get_extension">
 
   	
   <a href="https://www.linkedin.com/in/emerson-rafael/">
@@ -17,12 +17,12 @@
   </a>
 	
   
-  <a href="https://github.com/emersonrafaels/ocr_rg/commits/main">
+  <a href="https://github.com/emersonrafaels/base64_get_extension/commits/main">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/emersonrafaels/ocr_rg">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/emersonrafaels/ocr_rg/stargazers">
+   <a href="https://github.com/emersonrafaels/base64_get_extension/stargazers">
     <img alt="Stargazers" src="https://img.shields.io/github/stars/emersonrafaels/ocr_rg?style=social">
   </a>
 </p>
